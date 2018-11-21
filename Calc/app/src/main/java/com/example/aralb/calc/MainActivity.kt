@@ -19,25 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var btn1: Button = button1
-        var btn2: Button = button2
-        var btn3: Button = button3
-        var btn4: Button = button4
-        var btn5: Button = button5
-        var btn6: Button = button6
-        var btn7: Button = button7
-        var btn8: Button = button8
-        var btn9: Button = button9
-        var btn0: Button = button0
-        var btnplus: Button = buttonPlus
-        var btnminus: Button = buttonMinus
-        var btnmul: Button = buttonMult
-        var btndiv: Button = buttonDiv
-        var btnequel: Button = buttonEquals
-        var btndel: Button = buttonDel
-        var btnleft: Button = buttonLBreak
-        var btnrigth: Button = buttonRBreak
-        var btnpoint: Button = buttonPoint
+        
         val myText : TextView = myText
 
         if (str.isEmpty()) {
