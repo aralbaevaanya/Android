@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
+
         val myText : TextView = myText
 
         if (str.isEmpty()) {
@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity() {
         str.append('.')
         myText.text = str.toString();
     }
+
     fun putOne(view: View) {
         str.append('1')
         myText.text = str.toString()
@@ -140,7 +141,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun putCulc(view: View)  {
+    fun putCalc(view: View)  {
         if(!str.isEmpty()) {
             try {
                 val ret: Double = parser.parse(str.toString()).evaluate()

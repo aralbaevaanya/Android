@@ -233,7 +233,7 @@
             android:id="@+id/buttonEquals"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:onClick="putCulc"
+            android:onClick="putCalc"
             android:text="="
             app:layout_constraintHeight_percent="0.1"
             app:layout_constraintHorizontal_weight="6"
